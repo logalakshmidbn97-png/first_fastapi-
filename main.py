@@ -5,5 +5,5 @@ app=FastAPI()
 def get_weather(city:str,temperature:int):
     return{"city":city,
     "temperature":temperature,
-    "message":"Weather information received"}
+    "message":"Weather information received"h }
 
