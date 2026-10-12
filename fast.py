@@ -6,7 +6,7 @@ app=FastAPI()
 
 
 names=["Arun","Priya","Ragul","Divya"]
-@app.get("/student")
+@app.get("/student details")
 def get_student():
     name=random.choice(names)
     age=random.randint(18,25)
